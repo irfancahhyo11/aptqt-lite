@@ -44,7 +44,7 @@ class PackageList(QListWidget):
 class AptGui(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("APT GUI — Synaptic/Muon style")
+        self.setWindowTitle("aptqt-lite")
         self.resize(800, 500)
         self.layout = QVBoxLayout(self)
 
